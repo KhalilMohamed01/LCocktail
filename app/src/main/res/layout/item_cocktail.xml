@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/card_background"
+    android:elevation="4dp">
+
+<ImageView
+android:id="@+id/cocktailImage"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:scaleType="centerCrop"/>
+
+    <!-- Overlay Gradient -->
+<View
+android:id="@+id/overlayView"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/gradient_overlay" />
+
+    <!-- Cocktail Name -->
+<TextView
+android:id="@+id/cocktailName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:padding="8dp"
+android:background="#80000000"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:gravity="center" />
+    </RelativeLayout>
