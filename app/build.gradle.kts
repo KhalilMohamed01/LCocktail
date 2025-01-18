@@ -2,6 +2,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("org.jetbrains.kotlin.kapt")
+    id("com.google.gms.google-services")
+    id("kotlin-parcelize") 
+
 
 }
 
@@ -56,6 +59,16 @@ dependencies {
         implementation ("com.squareup.retrofit2:retrofit:2.9.0")
         implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
         implementation ("com.squareup.picasso:picasso:2.71828")
+
+
+        implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+
+        implementation("com.google.firebase:firebase-auth")
+        implementation("com.google.firebase:firebase-analytics")
+        implementation ("com.google.firebase:firebase-database:20.0.5")
+
+
+
     }
 
 

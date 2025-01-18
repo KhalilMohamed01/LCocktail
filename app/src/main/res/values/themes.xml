@@ -3,7 +3,11 @@
     <style name="Base.Theme.Lcocktail" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/roboto_slab_variable_font_wght</item> <!-- Replace with your desired font -->
+
     </style>
 
+
     <style name="Theme.Lcocktail" parent="Base.Theme.Lcocktail" />
+
 </resources>

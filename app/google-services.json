@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "392125837594",
+    "firebase_url": "https://lcocktail-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lcocktail",
+    "storage_bucket": "lcocktail.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392125837594:android:8b5f6a77e67e236f563ca3",
+        "android_client_info": {
+          "package_name": "com.example.lcocktail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5IAKYHFaOuW_ia5OJE2IShucVumdwqzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
